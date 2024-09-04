@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "tf-rp-states"
+    bucket = "tf-rp-states-jais"
     key    = "jayasuryamodel/terraform.tfstate"
     region = "us-east-1"
   }
